@@ -1,0 +1,12 @@
+{
+    "name": "trash",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+
+    "scripts": {
+        "dev": "rm -rf dist && npx tsc -w",
+        "build": "rm -rf dist && tsc",
+        "start": "node dist/index.js"
+    }
+}
