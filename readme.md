@@ -1,7 +1,7 @@
 
 ```typescript
 const Hello = (): string => {
-	return "Hi! Welcome 😆"
+	return "Hi, welcome 😆"
 }
 ```
 
